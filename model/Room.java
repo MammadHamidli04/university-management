@@ -3,7 +3,7 @@ package model;
 import java.util.ArrayList;
 import util.Enums;
 import util.Enums.RoomType;
-
+ 
 public class Room {
     private int number;
     private Building building;

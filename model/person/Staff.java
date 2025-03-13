@@ -20,8 +20,9 @@ public class Staff extends Person {
         this.office = office;
     }
 
-    public Staff(int id, String fullName, LocalDate dateOfBirth) {
+    public Staff(int id, String fullName, LocalDate dateOfBirth) throws Exception{
         super(id, fullName, dateOfBirth);
+
     }
 
     public double getSalary() { return salary; }
